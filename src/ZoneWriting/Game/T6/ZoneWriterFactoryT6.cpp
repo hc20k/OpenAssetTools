@@ -101,7 +101,7 @@ std::unique_ptr<ZoneWriter> ZoneWriterFactory::CreateWriter(const Zone& zone) co
 
     // TODO Support signed fastfiles
     bool isSecure = false;
-    bool isEncrypted = true;
+    bool isEncrypted = false;
 
     SetupBlocks(*writer);
 
